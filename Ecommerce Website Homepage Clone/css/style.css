@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+    --main-bg-color: rgba(9, 62, 95, 0.913);
+  }  
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(221, 235, 239);
+}
+
+header{
+    background-color: var(--main-bg-color);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+footer{
+    height: 8vh;
+    background-color: var(--main-bg-color);
+    color: azure;
+    font-family: 'Lato', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+
+.logo img{
+    width: 10vw;
+    padding: 0 28px;
+}
+
+nav ul{
+    display: flex;
+    height: 8vh;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 16px;
+}
+
+nav ul li a{
+    color: rgb(149, 186, 218);
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+nav ul li a:hover{
+    font-weight: bolder;
+}
+
+.searchbar{
+    display: flex;
+    align-items:center;
+    font-family: 'Lato', sans-serif;
+}
+
+.searchbar input{
+    width: 35vw;
+    height: 4vh;
+    border-radius: 2px;
+    margin: 0px 12px 0 12px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.container{
+    min-height: calc(100vh - 8vh - 8vh);
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    /* overflow: hidden; */
+}
+
+.card{
+    display: flex;
+    max-width: 97vw;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    justify-content: space-between;
+}
+
+.card-item{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    margin-right: 35px;
+}
+
+.card-item:hover{
+    cursor: pointer;
+}

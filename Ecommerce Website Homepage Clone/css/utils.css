@@ -1,0 +1,38 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background: var(--main-bg-color);
+    color: white;
+    padding: 3px 6px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.card-header-1{
+    margin: 5px 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.item-img-border{
+    border: 1px solid #0087ff;
+}
+
+.item-img-margin{
+    margin-top: 55px;
+}
+
+.hr-line{
+    max-width: 87vw;
+    margin: auto;
+}
+
+.lines{
+    font-weight: bold;
+}

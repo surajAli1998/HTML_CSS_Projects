@@ -1,0 +1,36 @@
+.slider-img-wisth{
+    width: 85vw;
+}
+
+@media screen and (max-width: 800px){
+    body{
+        background-color: aqua;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+        margin: 12px 0;
+    }
+
+    .searchbar input{
+        margin-bottom: 14px;
+    }
+
+    nav ul{
+        display: inline-flex;
+        align-items: center;
+        padding: 8px;
+        height: 35px;
+        width: 69px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-item img{
+        width: 25vw;
+    }
+}
